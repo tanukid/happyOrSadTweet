@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
   "dependencies": {
-    "sentiment": "^4.1.0"
+    "express": "^4.16.2",
+    "nunjucks": "^3.0.1",
+    "sentiment": "^4.1.0",
+    "twitter": "^1.7.1"
   }
 }

@@ -1,0 +1,12 @@
+<h1>Is Donald Trump Currently Happy or Sad?</h1>
+<p>Trump's last tweet: <span class="tweet">{{tweet}}</span> </p>
+<p>Trump's current mood is: <span class="sentiment">{{happyOrSad}}</span></p>
+
+{% if happyOrSad === "Sad!" %}
+  <img src="sad-donald.jpg" alt="sad donald">
+{% else %}
+  <img src="happy-donald.jpg" alt="happy donald">
+{% endif %}
+
+
+
